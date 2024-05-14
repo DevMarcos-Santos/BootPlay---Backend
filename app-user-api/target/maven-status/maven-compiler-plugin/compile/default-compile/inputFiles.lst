@@ -1,0 +1,17 @@
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\web\UsersAccountsController.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\config\CustomAuthenticationProvider.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\web\WalletController.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\listeners\WalletListener.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\services\UserAccountsService.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\config\RabbitConfig.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\services\WalletService.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\BootcampSysmapApplication.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\config\SpringDocOpenApiConfig.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\repositories\UserAccountsRepository.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\dto\UserAccountsDto.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\dto\AuthDto.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\entities\UserAccounts.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\entities\Wallet.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\domain\repositories\WalletRepository.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\dto\WalletDto.java
+C:\Users\marco\Desktop\marcos-santos-backend\app-user-api\src\main\java\br\com\sysmap\bootcamp\config\ServerSecurityConfig.java

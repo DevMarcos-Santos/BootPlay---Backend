@@ -1,0 +1,59 @@
+# Created by Andryev Lemes
+version: '3.2'
+services:
+  postgres_bootcamp:
+    build:
+      context: ./postgres
+    image: andryev/postgres_bootcamp:latest
+    ports:
+      - 5432:5432
+    container_name: postgres_bootcamp
+    networks:
+      - backend
+  rabbitmq_bootcamp:
+    build:
+      context: ./rabbitmq
+    image: andryev/rabbitmq_bootcamp:latest
+    ports:
+      - 15672:15672
+      - 5672:5672
+    container_name: rabbitmq_bootcamp
+    networks:
+      - backend
+  bootcamp-api:
+    build:
+      context: ../bootcamp-be/bootcamp-api
+      dockerfile: ../bootcamp-api/Dockerfile
+    image: andryev/bootcamp-api:latest
+    ports:
+      - 8082:8082
+    container_name: bootcamp-api
+    environment:
+      - POSTGRES_URL=postgres_bootcamp
+      - POSTGRES_USER=bootcamp
+      - POSTGRES_PASSWORD=bootcamppass
+      - POSTGRES_DATABASE=bootcamp
+    depends_on:
+      - postgres_bootcamp
+    networks:
+      - backend
+  bootcamp-user-api:
+    build:
+      context: ../bootcamp-be/bootcamp-user-api
+      dockerfile: ../bootcamp-user-api/Dockerfile
+    image: andryev/bootcamp-user-api:latest
+    ports:
+      - 8081:8081
+    container_name: bootcamp-user-api
+    environment:
+      - POSTGRES_URL=postgres_bootcamp
+      - POSTGRES_USER=bootcamp
+      - POSTGRES_PASSWORD=bootcamppass
+      - POSTGRES_DATABASE=bootcamp
+    depends_on:
+      - postgres_bootcamp
+    networks:
+      - backend
+networks:
+  backend:
+    driver: "bridge"

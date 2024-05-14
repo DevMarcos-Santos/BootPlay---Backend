@@ -1,0 +1,5 @@
+br\com\sysmap\bootcamp\domain\service\WalletServiceTest.class
+br\com\sysmap\bootcamp\web\UserAccountsControllerTest.class
+br\com\sysmap\bootcamp\BootcampSysmapApplicationTests.class
+br\com\sysmap\bootcamp\web\WalletControllerTest.class
+br\com\sysmap\bootcamp\domain\service\UserAccountsServiceTest.class
